@@ -1,0 +1,20 @@
+.boxActions {
+	font-size: 0;
+	text-align: center;
+	padding: 0 0 20px;
+	margin: 0 20px;
+}
+.boxActions a {
+	display: inline-block;
+	padding: 6px;
+}
+@media (min-width: 50em) {
+	.boxActions {
+		text-align: center;
+		position: relative;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: 0;
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"name": "La Revealer",
+	"description": "Effective ways to reveal content",
+	"author": "Sathya",
+	"author-email": "sathya.r@krds.fr",
+	"image": "img/packshot.png",
+	"gif": "img/packshot.gif",
+	"tags": "login, share, form",
+	"repo-url": "https://github.com/krdsbox/la-revealer"
+}

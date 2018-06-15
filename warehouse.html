@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>La Revealer - Warehouse</title>
+	<link rel="stylesheet" href="style/main.css">
+	<link rel="stylesheet" href="style/warehouse.css" />
+	<script src="https://use.fontawesome.com/5b8ca9212a.js"></script>
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<p class="error"></p>
+		<form id="loginForm">
+			<div class="formGroup login">
+			<a href="#" class="clickLabel"><i class="fa fa-user" aria-hidden="true">Login</i></a>
+				<section>
+					<i class="iconLogin fa fa-user" aria-hidden="true"></i>
+					<span>
+						<input type="text" name="username" placeholder="Username" />
+						<input type="password" name="password" placeholder="Password" />
+					</span>
+					<a href="#" class="btn">Login</a>
+				</section>
+			</div>
+		</form>
+		<form id="shareForm">
+			<div class="formGroup share">
+				<a href="#" class="clickLabel"><i class="fa fa-share-alt" aria-hidden="true">Share</i></a>
+				<section class="socialNav">
+					<i class="iconShare fa fa-share-alt" aria-hidden="true"></i>
+					<span>
+						<a href="#" class="twitter fa fa-twitter"></a>
+						<a href="#" class="fb fa fa-facebook"></a>
+						<a href="#" class="pin fa fa-pinterest-p"></a>
+						<a href="#" class="insta fa fa-instagram"></a>
+					</span>
+				</section>
+			</div>
+		</form>
+		<form id="newsForm">
+			<div class="formGroup newsLetter">
+				<a class="clickLabel"><i class="fa fa-envelope" aria-hidden="true">Join Newsletter</i></a>
+				<section>
+					<i class="iconNews fa fa-envelope" aria-hidden="true"></i>
+					<span>
+						<input type="email" name="email" placeholder="email" />
+					</span>
+					<a href="#" class="btn">join</a>
+				</section>
+			</div>
+		</form>
+	</div>
+	<script src="js/main.js"></script>
+	<script>
+		$(document).ready(function() {
+			warehouse();
+		})
+	</script>
+</body>
+</html>
