@@ -1,0 +1,9 @@
+#EXTM3U
+## Generated with https://github.com/google/shaka-packager version 634af659-release
+
+#EXT-X-INDEPENDENT-SEGMENTS
+
+#EXT-X-MEDIA:TYPE=AUDIO,URI="audio/stream-1/stream-1.m3u8",GROUP-ID="audio",NAME="stream-1",AUTOSELECT=YES,CHANNELS="2"
+
+#EXT-X-STREAM-INF:BANDWIDTH=4408652,AVERAGE-BANDWIDTH=1690044,CODECS="avc1.42c01f,mp4a.40.2",RESOLUTION=1024x576,FRAME-RATE=29.970,VIDEO-RANGE=SDR,AUDIO="audio",CLOSED-CAPTIONS=NONE
+video/video-1024p-1600kbps-sdr.m3u8
